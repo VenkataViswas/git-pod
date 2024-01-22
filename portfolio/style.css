@@ -24,19 +24,29 @@ nav
 nav a {
     text-decoration: none;
     color: white;
-    margin-top: 20px;
-
-
+    padding:30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
 }
 
 
 
-.nav-right a{
-    padding-right :50px;
 
-}
 
 .nav-left p{
     font-size: 45px;
     font-family:'Grape Nuts';
+    margin-left:50px;
+}
+
+.nav-right a:hover{
+    transition-delay: 50ms;
+    background-color: rgb(68, 62, 62); 
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.nav-right a:active{
+    opacity: 0.5;
 }
