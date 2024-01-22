@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+
+
+*{
+    margin:0;
+    
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav
+{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    height: 50px;
+    align-items: center;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+
+
+}
+
+
+
+.nav-right a{
+    padding-right :50px;
+
+}
+
+.nav-left p{
+    font-size: 45px;
+    font-family:'Grape Nuts';
+}
