@@ -18,6 +18,7 @@ nav
     color:white;
     height: 50px;
     align-items: center;
+
     
 }
 
@@ -49,4 +50,14 @@ nav a {
 
 .nav-right a:active{
     opacity: 0.5;
+}
+
+.home{
+    background-image: url("images/portfolio-background.png");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+    height: 700px;
+    width:100%;
 }
