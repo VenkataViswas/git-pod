@@ -97,8 +97,35 @@ nav a {
     font-style: italic;
     color:rgb(255, 152, 152);
     margin-top:10px;
+    height:1000px;
+    width:100%;
+    display:block;
+    
+    
+   
 }
 
-.about{
+.about-center{
+    background-image: url("images/about-background.jpg");
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
     height:100vh;
+    padding: 400px;
+    
+}
+
+.about-center{
+    color:rgb(0, 24, 240);
+    font-weight: bolder;
+   
+}
+
+
+.about-center p{
+    background-color: azure;
+    color: black;
+    border-radius: 80px;
+    padding:5%;
+    
 }
