@@ -129,3 +129,29 @@ nav a {
     padding:5%;
     
 }
+
+.project
+{
+    height:100vh;
+    background-color: whitesmoke;
+    color:rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project p{
+    width:400px;
+    font-style: italic;
+    background-color: wheat;
+    border-radius: 10%;
+    padding:6%;
+    margin-left:none;
+    color:rgb(44, 42, 42);
+    justify-content: center;
+}
+.project h1
+{
+    justify-content: center;
+}
