@@ -3,40 +3,54 @@
     <head>
         <title> VISWAS PROFILE </title>
         <link rel="stylesheet" href="style.css">
-        
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     </head>
 
     <body>
 
 
-        <nav>
-        
-            <div class="nav-left">
-                <p>Venkata Viswas</p>
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: black;">
+            <a class="navbar-brand" href="#">Venkata Viswas</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="nav-right">
-           <a href="#home">Home</a>
-           <a href="#">About</a>
-           <a href="#">Projects</a>
-           
-           <a href="#" style="padding-right: 50px;">Contact</a>
-        </div>
         </nav>
-        <section class="home">
-            <div class="name">
-            <p ><span class="venkata">Venkata </span> <span class="viswas">Viswas</span> </p>
-            <p class="about">I am  a <b style="color: rgb(255, 255, 255);">Data Scientist , </b> <br> who is looking for a job where i can apply my <br>technical skills  to improve my knowledge   </p>
-        </div>
+        <section class="home"  style="text-align: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/passport-photo.png" class="rounded-circle img-fluid" width="300">
+                    </div>
+                    <div class="col-md-6">
+                    <h1 class="venkata">Venkata viswas Tumbali </h2>
+                        <P style="color:rgb(163, 163, 163);font-size: 25px;">I am  a Data Scientist who is looking for a job where i can apply my technical skills  to improve my knowledge</P>
+                        
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="about">
-                <div class="about-center">
+               
           
-            <p>I am currently seeking post-internship opportunities to
-                leverage my skills for the development of an organization.
-                My further objective is to enhance my proficiency in
-                emerging Data science technologies and tools while making
-                meaningful contributions to the company.</p>
-                    </div>
+            
                    
         </section>
 
@@ -49,45 +63,12 @@
  
 
  <section class="project" >
-    <div class="project-background">
-        <div class="project-text">
-            <div> <h1>Projects : </h1></div> 
-            <h1 >Banglore house price Prediction </h1>
-            <img src="images/project1.png"  height="300px" width="400px" style="margin: 4%;">
-            <p>Currently working on deployment of Real estate Price prediction,where data science is applied to predict the price , Flask is used to act as an server between html and machine learning model, AWS is used to deploy the project.
-               <br> Github : <a href="https://github.com/VenkataViswas/Bang_house_price_prediction" > Click Here</a> </p>
-
-</div>
-</div>
+   
  </section>
 
  <section class="footer">
-    <form class="form">
-        <p style="text-align: center; margin:15%;padding:5%;width:100%;justify-content: center;
-        margin-bottom: none;
-        padding-bottom: none;
-        border-color: white;
-        font-size: 50px;">CONTACT</p>
-        <div class="form-group">
-            <label for="first-name">First name:</label>
-            <input type="text" id="first-name" name="first-name">
-        </div>
-        <div class="form-group">
-            <label for="last-name">Last name:</label>
-            <input type="text" id="last-name" name="last-name">
-        </div>
-        <div class="form-group">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-        </div>
-        <div class="form-group">
-            <label for="reason">Reason for Contact:</label>
-            <textarea id="reason" name="reason" cols="22" rows="3"></textarea>
-        </div>
-        <input type="submit" value="Submit">
-    </form>
+    
 </section>
-
 
     </body>
 </html>

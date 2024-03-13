@@ -3,6 +3,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=swap')
+
+
 
 *{
     margin:0;
@@ -11,85 +14,22 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav
-{
-    display:flex;
-    justify-content: space-between;
-    background-color: black;
-    color:white;
-    height: 50px;
-    align-items: center;
-    position: fixed;
-    top:0;
-    width:100%;
 
-    
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    padding:30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-   
-}
-
-
-
-
-
-.nav-left p{
-    font-size: 45px;
-    font-family:'Grape Nuts';
-    margin-left:50px;
-}
-
-.nav-right a:hover{
-    transition-delay: 50ms;
-    background-color: rgb(68, 62, 62); 
-    border-radius: 5px;
-    font-size: 20px;
-}
-
-.nav-right a:active{
-    opacity: 0.5;
-}
 
 .home{
-    background-image: url("images/portfolio-background.png");
+    background-image: url("images/portfolio-website.png");
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 
     height: 100vh;
     width:100%;
-   
-
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
-.name{
-    margin:auto;
-    padding-top:38vh;
-    padding-left: 30vh;
-    
-    }
-
-.venkata , .viswas{
-    font-size: 80px;
-    font-family:Rajdhani ;
-    font-weight: 100px;
-}
-
-.venkata{
-    color: #ffffff;
-}
-
-.viswas{
-    color:rgb(120, 220, 245);
-  
-}
 
 .about{
     font-size:30px;
@@ -100,127 +40,15 @@ nav a {
     height:1000px;
     width:100%;
     display:block;
-    
-    
-   
 }
 
-.about-center{
-    background-image: url("images/about-background.jpg");
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-    height:100vh;
-    padding: 400px;
-    
-}
-
-.about-center{
-    color:rgb(0, 24, 240);
-    font-weight: bolder;
-   
-}
-
-
-.about-center p{
-    background-color: azure;
-    color: black;
-    border-radius: 80px;
-    padding:5%;
-    
-}
-
-.project
-{
-    height:100vh;
-    background-color: whitesmoke;
-    color:rgb(0, 0, 0);
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.project p{
-    width:400px;
-    font-style: italic;
-    background-color: rgb(222, 215, 204);
-    border-radius: 10%;
-    padding:6%;
-    margin-left:none;
-    color:rgb(44, 42, 42);
-    justify-content: center;
-    font-style: italic;
-}
-.project h1
-{
-    justify-content: center;
-}
-
-.footer{
-    height:100vh;
-    width:100%;
-    background-color: black;
-    color:white;
+.venkata 
+{ 
+    padding-left: 0;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: Rajdhani;
 }
 
 
 
-.footer {
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.form {
-    padding: 10%;
-    margin: 10%;
-   
-}
-
-.form-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-   padding: 1%;
-   font-size: 25px;
-}
-
-.form-group label {
-    margin-bottom: 5px;
-}
-
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group textarea {
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.form-group textarea {
-    resize: none;
-}
-
-input[type="submit"] {
-   
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin:10%;
-
-    float:left;
-    
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-}
